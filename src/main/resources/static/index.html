@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restora — Restaurant Management</title>
+    <script>
+      // Apply the saved theme before first paint. Default is green.
+      try {
+        var t = localStorage.getItem("restora:theme");
+        document.documentElement.setAttribute("data-theme", t === "orange" ? "orange" : "green");
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "green");
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script type="module" crossorigin src="/assets/index-B2ekiqEJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CYCzhRc7.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

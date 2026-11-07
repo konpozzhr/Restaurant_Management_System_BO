@@ -1,0 +1,45 @@
+# Build output
+target/
+build/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven wrapper / tooling
+.mvn/timing.properties
+dependency-reduced-pom.xml
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets (never commit real passwords)
+.env
+.env.*
+application-local.properties
+application-local.yml
+application-secret.properties
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache/
+nbproject/
+nbbuild/
+nbdist/
+bin/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
